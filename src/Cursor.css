@@ -1,0 +1,15 @@
+body {
+	cursor: none;
+}
+.cursor-style {
+	background-color: transparent;
+
+	height: 2rem;
+	width: 2rem;
+	z-index: 10;
+	border-radius: 100%;
+	transform-origin: 100% 100%;
+	transform: translate(-50%, -50%);
+	position: fixed;
+	pointer-events: none;
+}
